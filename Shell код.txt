@@ -4,7 +4,7 @@ python manage.py shell запускаем консоль с настройкам
 	>>> from news.models import *
 
 1 Создаём пользователей:
-	>>> u1 = User.objects.create_user(username='Yerzhan')
+	>>> u1 = User.objects.create_user(username='Ura')
 	>>> u1
 	<User: Yerzhan>
 	>>> u2 = User.objects.create_user(username='Sergey')
@@ -13,7 +13,7 @@ python manage.py shell запускаем консоль с настройкам
 	>>> u3 = User.objects.create_user(username='Igor')
 	>>> u3
 	<User: Igor>
-	>>> u4 = User.objects.create_user(username='Arman')
+	>>> u4 = User.objects.create_user(username='Natali')
 
 2 Создаём авторов:
 	>>> Author.objects.create(authorUser=u1)

@@ -6,7 +6,7 @@ python manage.py shell запускаем консоль с настройкам
 1 Создаём пользователей:
 	>>> u1 = User.objects.create_user(username='Ura')
 	>>> u1
-	<User: Yerzhan>
+	<User: Ura>
 	>>> u2 = User.objects.create_user(username='Sergey')
 	>>> u2
 	<User: Sergey>
@@ -14,6 +14,7 @@ python manage.py shell запускаем консоль с настройкам
 	>>> u3
 	<User: Igor>
 	>>> u4 = User.objects.create_user(username='Natali')
+        <User: Natali>
 
 2 Создаём авторов:
 	>>> Author.objects.create(authorUser=u1)
